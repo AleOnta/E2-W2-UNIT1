@@ -109,15 +109,25 @@ if (totalShoppingCart < 50) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const number_6 = 10;
-const number_7 = 100;
-const number_8 = 1000;
+let number_6 = 10;
+let number_7 = 100;
+let number_8 = 1000;
 console.log("Ex.7");
 
 if (number_6 < number_7 && number_7 < number_8) {
   console.log(number_8, number_7, number_6);
-} else if (number_6 < number_7 && number_7 > number_8) {
-  console.log(number_7, number_8);
+} else if (number_6 > number_7 && number_8 > number_6) {
+  console.log(number_8, number_6, number_7);
+} else if (number_6 < number_7 && number_6 > number_8) {
+  console.log(number_7, number_6, number_8);
+} else if (number_7 > number_8 && number_8 > number_6) {
+  console.log(number_7, number_8, number_6);
+} else if (number_6 > number_7 && number_7 > number_8) {
+  console.log(number_6, number_7, number_8);
+} else if (number_6 > number_8 && number_8 > number_7) {
+  console.log(number_6, number_8, number_7);
+} else {
+  console.log("I'm a noobie :/");
 }
 
 /* ESERCIZIO 8
@@ -192,11 +202,19 @@ const me = {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+me.city = "Toronto";
+console.log("Ex.11");
+console.log("What city it's me from?:", me.city);
+
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+delete me.lastName;
+console.log("Ex.12");
+console.log("Now, the lastname of me it's:", me.lastName);
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
@@ -204,6 +222,9 @@ const me = {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+me.skills.pop(2);
+console.log("Ex.13");
+console.log(me.skills);
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
