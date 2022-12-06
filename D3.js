@@ -31,6 +31,14 @@ if (number_1 != 5) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+const number_3 = 53;
+
+if (number_3 % 5 === 0) {
+  console.log("this number is perfectly divisible by 5");
+} else {
+  console.log("this number isn't perfectly divisible by 5");
+}
+
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
