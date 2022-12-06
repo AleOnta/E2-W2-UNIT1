@@ -243,7 +243,10 @@ console.log(me.skills);
 /* SCRIVI QUI LA TUA RISPOSTA */
 console.log("------------------------------------");
 console.log("Ex.14");
-console.log(me);
+let hobby = [];
+console.log(hobby);
+hobby.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+console.log(hobby);
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
@@ -252,3 +255,5 @@ console.log(me);
 /* SCRIVI QUI LA TUA RISPOSTA */
 console.log("------------------------------------");
 console.log("Ex.15");
+hobby[9] = 100;
+console.log(hobby);
