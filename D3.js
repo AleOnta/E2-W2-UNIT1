@@ -45,6 +45,25 @@ if (number_3 % 5 === 0) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+const number_4 = 3;
+const number_5 = 2;
+
+if (number_4 === 8) {
+  console.log(number_4, "it's equal to 8");
+} else if (number_5 === 8) {
+  console.log(number_5, "it's equal to 8");
+} else if (number_4 + number_5 === 8) {
+  console.log("the sum of", number_4, "&", number_5, "it's equal to 8");
+} else if (number_5 + number_4 === 8) {
+  console.log("the sum of", number_5, "&", number_4, "it's equal to 8");
+} else if (number_4 - number_5 === 8) {
+  console.log("the subtraction of", number_4, "&", number_5, "it's equal to 8");
+} else if (number_5 - number_4 === 8) {
+  console.log("the subtraction of", number_5, "&", number_4, "it's equal to 8");
+} else {
+  console.log("try again, there's no number equal to 8 in this case!");
+}
+
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
   C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
