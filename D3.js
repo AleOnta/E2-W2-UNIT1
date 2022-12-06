@@ -135,7 +135,7 @@ if (number_6 < number_7 && number_7 < number_8) {
 } else if (number_6 > number_8 && number_8 > number_7) {
   console.log(number_6, number_8, number_7);
 } else {
-  console.log("I'm a noobie :/");
+  console.log("I'm a noobie, have mercy :/");
 }
 
 /* ESERCIZIO 8
