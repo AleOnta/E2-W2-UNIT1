@@ -3,8 +3,8 @@
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const number_1 = 5;
-const number_2 = 4;
+let number_1 = 5;
+let number_2 = 4;
 console.log("Ex.1");
 
 if (number_1 > number_2) {
@@ -20,6 +20,7 @@ if (number_1 > number_2) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("------------------------------------");
 console.log("Ex.2");
 
 if (number_1 != 5) {
@@ -33,7 +34,8 @@ if (number_1 != 5) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const number_3 = 53;
+let number_3 = 53;
+console.log("------------------------------------");
 console.log("Ex.3");
 
 if (number_3 % 5 === 0) {
@@ -47,8 +49,9 @@ if (number_3 % 5 === 0) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const number_4 = 3;
-const number_5 = 2;
+let number_4 = 3;
+let number_5 = 2;
+console.log("------------------------------------");
 console.log("Ex.4");
 
 if (number_4 === 8) {
@@ -75,6 +78,7 @@ if (number_4 === 8) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let totalShoppingCart = 60;
+console.log("------------------------------------");
 console.log("Ex.5");
 
 if (totalShoppingCart < 50) {
@@ -92,6 +96,7 @@ if (totalShoppingCart < 50) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("------------------------------------");
 console.log("Ex.6");
 totalShoppingCart = totalShoppingCart - (totalShoppingCart * 20) / 100;
 
@@ -114,6 +119,7 @@ if (totalShoppingCart < 50) {
 let number_6 = 10;
 let number_7 = 100;
 let number_8 = 1000;
+console.log("------------------------------------");
 console.log("Ex.7");
 
 if (number_6 < number_7 && number_7 < number_8) {
@@ -137,7 +143,8 @@ if (number_6 < number_7 && number_7 < number_8) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const value = null;
+let value = null;
+console.log("------------------------------------");
 console.log("Ex.8");
 
 if (typeof value === "number") {
@@ -157,7 +164,8 @@ if (typeof value === "number") {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const number_9 = 1;
+let number_9 = 1;
+console.log("------------------------------------");
 console.log("Ex.9");
 
 if (number_9 % 2 === 0) {
@@ -180,6 +188,7 @@ if (number_9 % 2 === 0) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let val = 7;
+console.log("------------------------------------");
 console.log("Ex.10");
 
 if (val < 10 && val > 5) {
@@ -195,7 +204,6 @@ if (val < 10 && val > 5) {
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
-
 const me = {
   name: "John",
   lastName: "Doe",
@@ -203,8 +211,8 @@ const me = {
 };
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
 me.city = "Toronto";
+console.log("------------------------------------");
 console.log("Ex.11");
 console.log("What city it's me from?:", me.city);
 
@@ -213,8 +221,8 @@ console.log("What city it's me from?:", me.city);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
 delete me.lastName;
+console.log("------------------------------------");
 console.log("Ex.12");
 console.log("Now, the lastname of me it's:", me.lastName);
 
@@ -223,18 +231,24 @@ console.log("Now, the lastname of me it's:", me.lastName);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
 me.skills.pop(2);
+console.log("------------------------------------");
 console.log("Ex.13");
 console.log(me.skills);
+
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("------------------------------------");
+console.log("Ex.14");
+console.log(me);
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("------------------------------------");
+console.log("Ex.15");
