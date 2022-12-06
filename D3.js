@@ -72,7 +72,7 @@ if (number_4 === 8) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let totalShoppingCart = 35;
+let totalShoppingCart = 60;
 console.log("Ex.5");
 
 if (totalShoppingCart < 50) {
@@ -90,6 +90,17 @@ if (totalShoppingCart < 50) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("Ex.6");
+totalShoppingCart = totalShoppingCart - (totalShoppingCart * 20) / 100;
+
+if (totalShoppingCart < 50) {
+  console.log("The cart doesn't exceed 50€, we inform you that the shipping price is 10€");
+  console.log("Please note that our Black Friday promotion it's active and every product has a discount of the 20%");
+  console.log("The total amount is:", totalShoppingCart + "€");
+} else {
+  console.log("The total amount of your cart exceed 50€, the shipping service will be free");
+  console.log("The total amount is:", totalShoppingCart + "€");
+}
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
