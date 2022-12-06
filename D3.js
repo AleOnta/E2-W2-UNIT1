@@ -170,6 +170,8 @@ console.log("Ex.9");
 
 if (number_9 % 2 === 0) {
   console.log("It's even");
+} else if (number_9 === 0) {
+  console.log("The number is 0");
 } else {
   console.log("It's odd");
 }
