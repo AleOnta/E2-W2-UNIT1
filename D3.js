@@ -8,11 +8,11 @@ let number_2 = 4;
 console.log("Ex.1");
 
 if (number_1 > number_2) {
-  console.log(number_1, "è maggiore di", number_2);
+  console.log(number_1, "it's higher than", number_2);
 } else if (number_1 === number_2 || number_2 === number_1) {
   console.log("these numbers are equal");
 } else {
-  console.log(number_2, "è maggiore di", number_1);
+  console.log(number_2, "it's higher than", number_1);
 }
 
 /* ESERCIZIO 2
