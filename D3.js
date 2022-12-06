@@ -233,7 +233,7 @@ console.log("Now, the lastname of me it's:", me.lastName);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-me.skills.pop(2);
+me.skills.pop();
 console.log("------------------------------------");
 console.log("Ex.13");
 console.log(me.skills);
