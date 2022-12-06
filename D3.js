@@ -143,7 +143,7 @@ if (number_6 < number_7 && number_7 < number_8) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let value = null;
+let value = undefined;
 console.log("------------------------------------");
 console.log("Ex.8");
 
