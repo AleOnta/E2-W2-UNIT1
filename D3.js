@@ -109,18 +109,50 @@ if (totalShoppingCart < 50) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const number_6 = 10;
+const number_7 = 100;
+const number_8 = 1000;
+console.log("Ex.7");
+
+if (number_6 < number_7 && number_7 < number_8) {
+  console.log(number_8, number_7, number_6);
+} else if (number_6 < number_7 && number_7 > number_8) {
+  console.log(number_7, number_8);
+}
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const value = null;
+console.log("Ex.8");
+
+if (typeof value === "number") {
+  console.log("It's a number");
+} else if (typeof value === "string") {
+  console.log("It's not a number -.-");
+  console.log("It's a string");
+} else if (typeof value === "boolean") {
+  console.log("It's not a number -.-");
+  console.log("It's a bool");
+} else {
+  console.log("Nope, it's not a number -.-");
+}
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const number_9 = 1;
+console.log("Ex.9");
+
+if (number_9 % 2 === 0) {
+  console.log("It's even");
+} else {
+  console.log("It's odd");
+}
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
@@ -135,6 +167,18 @@ if (totalShoppingCart < 50) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let val = 7;
+console.log("Ex.10");
+
+if (val < 10 && val > 5) {
+  console.log("Less than 10 but higher than 5");
+} else if (val < 5) {
+  console.log("Less than 5");
+} else if (val === 10) {
+  console.log("Equal to 10");
+} else {
+  console.log("Higher than 10");
+}
 
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
