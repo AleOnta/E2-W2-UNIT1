@@ -19,6 +19,12 @@ if (number_1 > number_2) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+if (number_1 != 5) {
+  console.log("not-equal!");
+} else {
+  console.log("these numbers are equal");
+}
+
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
