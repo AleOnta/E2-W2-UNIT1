@@ -3,9 +3,9 @@
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
 const number_1 = 5;
 const number_2 = 4;
+console.log("Ex.1");
 
 if (number_1 > number_2) {
   console.log(number_1, "è maggiore di", number_2);
@@ -18,6 +18,7 @@ if (number_1 > number_2) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+console.log("Ex.2");
 
 if (number_1 != 5) {
   console.log("not-equal!");
@@ -30,8 +31,8 @@ if (number_1 != 5) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
 const number_3 = 53;
+console.log("Ex.3");
 
 if (number_3 % 5 === 0) {
   console.log("this number is perfectly divisible by 5");
@@ -44,9 +45,9 @@ if (number_3 % 5 === 0) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
 const number_4 = 3;
 const number_5 = 2;
+console.log("Ex.4");
 
 if (number_4 === 8) {
   console.log(number_4, "it's equal to 8");
@@ -71,6 +72,17 @@ if (number_4 === 8) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let totalShoppingCart = 35;
+console.log("Ex.5");
+
+if (totalShoppingCart < 50) {
+  totalShoppingCart = totalShoppingCart + 10;
+  console.log("The cart doesn't exceed 50€, we inform you that the shipping price is 10€");
+  console.log("The total amount is:", totalShoppingCart + "€");
+} else {
+  console.log("The total amount of your cart exceed 50€, the shipping service will be free");
+  console.log("The total amount is:", totalShoppingCart + "€");
+}
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
