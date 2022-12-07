@@ -245,10 +245,19 @@ console.log(me.skills);
 /* SCRIVI QUI LA TUA RISPOSTA */
 console.log("------------------------------------");
 console.log("Ex.14");
+// PRIMO METODO:
 let number = [];
 console.log(number);
 number.push(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 console.log(number);
+
+// SECONDO METODO:
+let number_dos = [];
+for (let i = 0; i < 10; i++) {
+  number_dos.push(i + 1);
+}
+
+console.log(number_dos);
 
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
