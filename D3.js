@@ -3,17 +3,19 @@
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let number_1 = 5;
-let number_2 = 4;
+let a = 3;
+let b = 4;
 console.log("Ex.1");
 
-if (number_1 > number_2) {
-  console.log(number_1, "it's higher than", number_2);
-} else if (number_1 === number_2 || number_2 === number_1) {
+if (a > b) {
+  console.log(a, "it's higher than", b);
+} else if (a === b || b === a) {
   console.log("these numbers are equal");
 } else {
-  console.log(number_2, "it's higher than", number_1);
+  console.log(b, "it's higher than", a);
 }
+
+console.log("exercise 1 alternative:");
 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
@@ -23,7 +25,7 @@ if (number_1 > number_2) {
 console.log("------------------------------------");
 console.log("Ex.2");
 
-if (number_1 != 5) {
+if (a != 5) {
   console.log("not-equal!");
 } else {
   console.log("these numbers are equal");
@@ -105,7 +107,7 @@ if (totalShoppingCart < 50) {
   console.log("Please note that our Black Friday promotion it's active and every product has a discount of the 20%");
   console.log("The total amount is:", totalShoppingCart + "€");
 } else {
-  console.log("The total amount of your cart exceed 50€, the shipping service will be free");
+  console.log("The total amount of your cart exceed 50€, the shipping service won't be charged");
   console.log("The total amount is:", totalShoppingCart + "€");
 }
 
